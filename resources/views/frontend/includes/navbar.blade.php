@@ -39,7 +39,7 @@
             <div class="col-12">
                 <div class="pageLink">
                     <a href="{{ route('frontend.about') }}">@lang('backend.about')</a>
-                    <a href="">@lang('backend.services')</a>
+                    <a href="{{ route('frontend.services') }}">@lang('backend.services')</a>
                     <a href="">@lang('backend.products')</a>
                     <a href="{{ route('frontend.createOrder') }}">@lang('backend.create-order')</a>
                     <a href="{{ route('frontend.contact-us-page') }}">@lang('backend.contact-us')</a>

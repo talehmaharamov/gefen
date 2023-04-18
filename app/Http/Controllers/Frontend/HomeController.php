@@ -148,10 +148,10 @@ class HomeController extends Controller
             $contact->message = $request->order;
             $contact->save();
             $data = $contact->toArray();
-            Mail::send('backend.mail.send', $data, function ($message) use ($receiver) {
-                $message->to($receiver);
-                $message->subject(__('backend.you-have-new-message'));
-            });
+//            Mail::send('backend.mail.send', $data, function ($message) use ($receiver) {
+//                $message->to($receiver);
+//                $message->subject(__('backend.you-have-new-message'));
+//            });
             alert()->success(__('messages.success'));
             return redirect(route('frontend.contact-us-page'));
         } catch (Exception $e) {

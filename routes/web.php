@@ -26,6 +26,7 @@ use App\Http\Controllers\Frontend\AboutController as FAbout;
 use App\Http\Controllers\Frontend\HomeController as FHome;
 use App\Http\Controllers\Frontend\PostController as FPost;
 use App\Http\Controllers\Frontend\CategoryController as FCategory;
+use App\Http\Controllers\Frontend\ServiceController as FSErvice;
 
 //General
 use Illuminate\Support\Facades\Auth;
@@ -129,6 +130,7 @@ Route::group(['prefix' => '/', 'as' => 'frontend.', 'middleware' => 'frontLangua
     Route::post('/search', [FHome::class, 'search'])->name('search');
     Route::post('/newsletter-add-new', [FHome::class, 'newsletter'])->name('newsletter');
     Route::get('/newsletter/{id}/{token}', [FHome::class, 'verifyMail'])->name('verifyMail');
+    Route::get('services', [FSErvice::class, 'index'])->name('services');
     Route::get('mail/test', function () {
         return view('backend.mail.send');
     });
