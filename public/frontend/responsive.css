@@ -1,0 +1,174 @@
+@media only screen and (max-width:500px){
+    #Navbar .pageLink{
+        width: 100% !important;
+        justify-content: space-between !important;
+    }
+    .formBox {
+        margin: 0px  !important;
+    }
+    #Navbar .pageLink a{
+        font-size: 13px !important;
+        text-align: center;
+    }
+   
+    #Logo .logoBox img {
+        width: 25% !important;
+        object-fit: cover !important;
+    }
+    #BackImg{
+        height: 350px !important;
+    }
+    #AboutMain .topImage{
+        justify-content: center !important;
+    }
+    #AboutMain .topImage .imgBox{
+        gap: 10px !important;
+        margin-bottom: 20px ;
+    }
+    #AboutMain .topImage .imgBox .img1{
+        width: 48% !important;
+        height: auto !important;
+    }
+    #AboutMain .topImage .imgBox .img2{
+        width: 48% !important;
+        height: auto !important;
+    }
+    #AboutMain .centerImage {
+        width: 100% !important;
+    }
+    #AboutMain .centerImage .imgBox{
+        gap: 10px !important;
+        flex-direction: column-reverse !important;
+    }
+    #AboutMain .bottomImage .imgBox img{
+        display: none !important;
+    }
+    #ProductsMain .productBox .productCard {
+        width: 45% !important;
+    }
+    .logoFooter{
+        display: flex ;
+        justify-content: center;
+    }
+    footer .footerBigBox .footerBox .top  a{
+        font-size: 13px !important;
+    }
+    footer .copyright{
+        height: 35px !important;
+    }
+    footer .copyright span{
+        font-size: 13px ;
+    }
+    footer .footerBigBox{
+        justify-content: center !important;
+    }
+    footer .logoFooter img{
+        width: 40%;
+        object-fit: contain !important;
+    }
+    #Why .whyTitle p{
+        font-size: 13px !important;
+        margin-top: 0px !important;
+    }   
+
+    .RowBox{
+        padding: 10px !important;
+      }
+ 
+}
+
+@media only screen and (max-width:993px){
+    #Navbar .pageLink{
+        width: 100% !important;
+    }
+    #Navbar .pageLink a{
+        font-size: 16px;
+        text-align: center;
+    }
+    #Logo .logoBox img {
+        width: 25% !important;
+        object-fit: cover !important;
+    }
+    #BackImg{
+        height: 350px !important;
+    }
+    #AboutMain .topImage{
+        justify-content: center !important;
+    }
+    #AboutMain .topImage .imgBox{
+        gap: 10px !important;
+        margin-bottom: 20px ;
+    }
+    #AboutMain .topImage .imgBox .img1{
+        width: 48% !important;
+        height: auto !important;
+    }
+    #AboutMain .topImage .imgBox .img2{
+        width: 48% !important;
+        height: auto !important;
+    }
+    #AboutMain .centerImage {
+        width: 100% !important;
+    }
+    #AboutMain .centerImage .imgBox{
+        gap: 10px !important;
+        flex-direction: column-reverse !important;
+    }
+    #AboutMain .bottomImage .imgBox img{
+        display: none !important;
+    }
+    #ProductsMain .productBox{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #ProductsMain .productBox .productCard{
+        width: 24% ;
+    }
+    footer .footerBigBox{
+        justify-content: center !important;
+    }
+    footer .footerBigBox{
+        justify-content: center !important;
+    }
+    footer .logoFooter img{
+        width: 40%;
+        object-fit: contain !important;
+    }
+    .logoFooter{
+        display: flex ;
+        justify-content: center;
+    }
+    #About .leftAbout .bodyLeft {
+        text-align: start !important;
+        background-color: #FAFAFA;
+        padding: 20px 26px 20px 30px !important;
+    }
+    #About .leftAbout{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .backImgAbout{
+        display: none;
+    }
+    #Why .whyTitle{
+        width: 90% !important;
+    }
+    .myP{
+        padding: 0 10px !important; 
+    }
+    .formBoxContact .orderForm {
+        background-color: #fff;
+        box-shadow: 0px 4px 15px 0px #0000001A;
+    }
+    .formBoxContact{
+        box-shadow: inherit !important;
+    }
+    .rightBackSocial {
+        background-color: #383838;
+        height: 100%;
+        box-shadow: 0px 4px 15px 0px #0000001A;
+
+    }
+}
